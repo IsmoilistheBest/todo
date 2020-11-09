@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.img_custom {
+    border: none;
+    height: 100px;
+    width: auto;
+}
+// Custom
+body {
+    background-color: #fff;
+}
+
+.table-btn {
+    text-align: center;
+    & form {
+        display: contents;
+    }
+}
+.text-center {
+    text-align: center!important;
+}
+.container {
+    & input::placeholder {
+        font-style: italic;
+
+    }
+}
+
+.error_list{
+    list-style: none;
+}
